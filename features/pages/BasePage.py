@@ -1,5 +1,6 @@
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 
@@ -10,3 +11,6 @@ class BasePage:
 
     def open_url(self, url):
         self.driver.get(url)
+
+    def drag_and_drop(self, element, target):
+        ActionChains(self.driver).drag_and_drop(element, target).perform()
