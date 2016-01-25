@@ -11,9 +11,9 @@ Executar os seguintes comandos
 
 `git clone https://github.com/Mushi720/drag-and-drop-selenium.git`
 
-`virtualenv selenium_for_students`
+`virtualenv drag-and-drop-selenium`
 
-`cd selenium_for_students`
+`cd drag-and-drop-selenium`
 
 Linux/ Mac OS: `source bin/activate`
 
