@@ -13,5 +13,7 @@ class MainPage(BasePage):
     def open_main_page(self):
         super().open_url(self.URL)
 
-    def drag_and_drop_the_square_to_the_box():
-        super().drag_and_drop(SQUARE, BOX)
+    def drag_and_drop_the_square_to_the_box(self):
+        square = super().find(self.SQUARE)
+        box = super().find(self.BOX)
+        super().drag_and_drop(square, box)

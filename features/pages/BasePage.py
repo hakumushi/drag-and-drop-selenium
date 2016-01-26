@@ -12,5 +12,12 @@ class BasePage:
     def open_url(self, url):
         self.driver.get(url)
 
+    def find(self, locator):
+        element = self.wait_for(EC.visibility_of_element_located(locator))
+        return element
+
     def drag_and_drop(self, element, target):
         ActionChains(self.driver).drag_and_drop(element, target).perform()
+
+    def wait_for(self,condition, seconds = 5):
+        return  WebDriverWait(self.driver,seconds).until(condition)
