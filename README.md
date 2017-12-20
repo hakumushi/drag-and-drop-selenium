@@ -1,4 +1,5 @@
 # Drag and Drop Selenium Sample
+Drag and drop selenium sample with Python and behave.
 
 ## Requirements
 
