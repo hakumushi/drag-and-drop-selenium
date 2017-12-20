@@ -21,3 +21,7 @@ class BasePage:
 
     def wait_for(self,condition, seconds = 5):
         return  WebDriverWait(self.driver,seconds).until(condition)
+
+    def select_a_frame(self, locator):
+        element = self.wait_for(EC.visibility_of_element_located(locator))
+        self.driver.switch_to_frame(element)

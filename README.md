@@ -1,26 +1,13 @@
-##Requisitos de ambiente:
+# Drag and Drop Selenium Project
 
-- [Python 3.4](https://www.python.org/downloads/release/python-344/)
-- [virtualenv](https://virtualenv.readthedocs.org/en/latest/installation.html)
+## Requirements
 
-##Preparação do ambiente:
+1. [Python 3](https://www.python.org/downloads/)
+2. [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
-O chromedriver deste projeto funciona apenas em ambientes Linux x64, baixe a versão correta do chromedriver para seu sistema operacional [aqui](http://chromedriver.storage.googleapis.com/index.html?path=2.20/).
+## Steps
 
-Executar os seguintes comandos
-
-`git clone https://github.com/Mushi720/drag-and-drop-selenium.git`
-
-`virtualenv drag-and-drop-selenium`
-
-`cd drag-and-drop-selenium`
-
-Linux/ Mac OS: `source bin/activate`
-
-Windows: `Scripts\activate`
-
-`pip install -r requirements.txt`
-
-Para executar a feature:
-
-`behave`
+1. Clone the project
+2. Install the libs (pip install -r requirements.txt)
+3. Access the features folder on terminal
+4. Execute behave or behave cadastro.feature
