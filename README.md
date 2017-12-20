@@ -1,4 +1,4 @@
-# Drag and Drop Selenium Project
+# Drag and Drop Selenium Sample
 
 ## Requirements
 
