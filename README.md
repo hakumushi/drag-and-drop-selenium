@@ -12,4 +12,4 @@ Drag and drop selenium sample with Python and behave.
 2. Install the libs (pip install -r requirements.txt)
 3. Access the features folder on terminal
 4. Create a folder resources and move the chromedriver file to it
-5. Execute behave or behave cadastro.feature
+5. Execute behave or behave mainpage.feature
